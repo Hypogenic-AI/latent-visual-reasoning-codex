@@ -1,0 +1,86 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "noise_levels": [
+    0.3,
+    0.6,
+    0.9
+  ],
+  "cluster_counts": [
+    3,
+    4,
+    5
+  ],
+  "configs": {
+    "baseline": {
+      "n_tokens": 4,
+      "n_steps": 30,
+      "temperature": 1.0,
+      "lr": 1.0,
+      "momentum": 0.0,
+      "repulsion": 0.0,
+      "repulsion_eps": 0.001,
+      "convergence_tol": 0.001
+    },
+    "inertia": {
+      "n_tokens": 4,
+      "n_steps": 30,
+      "temperature": 1.0,
+      "lr": 1.0,
+      "momentum": 0.5,
+      "repulsion": 0.0,
+      "repulsion_eps": 0.001,
+      "convergence_tol": 0.001
+    },
+    "repulsion": {
+      "n_tokens": 4,
+      "n_steps": 30,
+      "temperature": 1.0,
+      "lr": 1.0,
+      "momentum": 0.0,
+      "repulsion": 0.05,
+      "repulsion_eps": 0.001,
+      "convergence_tol": 0.001
+    },
+    "inertia_repulsion": {
+      "n_tokens": 4,
+      "n_steps": 30,
+      "temperature": 1.0,
+      "lr": 1.0,
+      "momentum": 0.5,
+      "repulsion": 0.05,
+      "repulsion_eps": 0.001,
+      "convergence_tol": 0.001
+    }
+  }
+}

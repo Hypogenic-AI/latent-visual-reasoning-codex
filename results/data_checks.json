@@ -1,0 +1,29 @@
+{
+  "sample_clevr": {
+    "sample_count": 10,
+    "fields": [
+      "answer",
+      "image",
+      "image_index",
+      "program",
+      "question",
+      "question_family_index",
+      "question_index",
+      "split"
+    ],
+    "missing_programs": 0
+  },
+  "clevrer_counterfactual": {
+    "sample_count": 10,
+    "fields": [
+      "choices",
+      "conversations",
+      "program",
+      "question",
+      "question_id",
+      "question_type",
+      "video"
+    ],
+    "missing_programs": 0
+  }
+}

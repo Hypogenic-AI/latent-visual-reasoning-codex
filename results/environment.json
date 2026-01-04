@@ -1,0 +1,8 @@
+{
+  "python_version": "3.12.2 | packaged by Anaconda, Inc. | (main, Feb 27 2024, 17:35:02) [GCC 11.2.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "numpy": "2.4.0",
+  "pandas": "2.3.3",
+  "scipy": "1.16.3",
+  "scikit_learn": "1.8.0"
+}
